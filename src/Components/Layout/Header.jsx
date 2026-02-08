@@ -8,7 +8,7 @@ const Header = () => {
     <header className="h-16 bg-white border-b flex items-center justify-between px-6">
       
       {/* Search */}
-      <div className="relative w-[320px]">
+      <div className="relative hidden md:block w-[320px]">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
         <Input
           placeholder="Add search term or youtube link..."

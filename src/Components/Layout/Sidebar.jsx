@@ -32,7 +32,7 @@ const menuItems = [
 
 const Sidebar = () => {
   return (
-    <aside className="w-[240px] bg-[#1B1B1B] text-white flex flex-col">
+    <aside className="hidden md:flex w-[240px] bg-[#1B1B1B] text-white flex flex-col">
       
       {/* Logo */}
       <div className="h-16 flex items-center px-6 text-xl font-bold">

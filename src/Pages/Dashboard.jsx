@@ -27,9 +27,9 @@ export const Dashboard = () => {
 
   return (
     <div className='p-6'>
-      <div className='flex gap-4'>
+      <div className='flex flex-col lg:flex-row gap-4'>
         {/* left side */}
-      <div className='flex flex-col'>
+      <div className='flex flex-col w-full lg:w-[70%]'>
       {/* std cards */}
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4'>
       <StatCard title="Students" value="0" icon={<Users size={23} />} />
@@ -62,7 +62,7 @@ export const Dashboard = () => {
 
     </div>
     {/* right side */}
-    <div>
+    <div className='w-full lg:w-[30%]'>
       <NoClasses />
     </div>
 
