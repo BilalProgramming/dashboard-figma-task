@@ -2,11 +2,14 @@ import {
   LayoutDashboard,
   Compass,
   BookOpen,
+  Library,
   GraduationCap,
+  Users,
   Video,
+  ShoppingCart,
   Download,
   CreditCard,
-  Users,
+  UserCheck,
 } from "lucide-react"
 
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -17,16 +20,19 @@ const menuItems = [
   { name: "Dashboard", icon: LayoutDashboard, active: true },
   { name: "Discover", icon: Compass },
   { name: "Quizzes", icon: BookOpen },
+  { name: "My Library", icon: Library },
   { name: "My School", icon: GraduationCap },
   { name: "Classes", icon: Users },
   { name: "Lessons", icon: Video },
+  { name: "Orders", icon: ShoppingCart },
   { name: "Downloads", icon: Download },
   { name: "Subscription", icon: CreditCard },
+  { name: "Membership", icon: UserCheck },
 ]
 
 const Sidebar = () => {
   return (
-    <aside className="w-[270px] bg-[#1B1B1B] text-white flex flex-col">
+    <aside className="w-[240px] bg-[#1B1B1B] text-white flex flex-col">
       
       {/* Logo */}
       <div className="h-16 flex items-center px-6 text-xl font-bold">
