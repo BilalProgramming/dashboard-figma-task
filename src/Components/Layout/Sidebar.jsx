@@ -12,8 +12,8 @@ import {
   UserCheck,
 } from "lucide-react"
 
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Separator } from "@/components/ui/separator"
+import { ScrollArea } from "../ui/scroll-area"
+import { Separator } from "../ui/separator"
 import { cn } from "@/lib/utils"
 
 const menuItems = [

@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardContent } from "@/components/ui/card"
+import { Card, CardHeader, CardContent } from "@/Components/ui/card"
 
 
 import React from "react"

@@ -1,4 +1,4 @@
-import { Card } from "@/Components/ui/Card"
+import { Card } from "@/Components/ui/card"
 import { Button } from "@/components/ui/button"
 import { GraduationCap } from "lucide-react"
 
